@@ -1,0 +1,42 @@
+html,
+body {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 15px;
+}
+.v-main header {
+  margin-bottom: 20px;
+}
+.v-container {
+  min-width: 390px !important;
+  max-width: 800px !important;
+}
+.v3dp__popout,
+.v3dp__body,
+.v3dp__elements {
+  z-index: 999999999;
+  background-color: white;
+  opacity: 1;
+}
+.dialog-form-add-data .c__inputs {
+  height: 350px;
+  /* border: 1px solid red; */
+}
+
+.dialog-form-add-data .c__inputs .v-row__numbers {
+  position: relative;
+  top: 150px;
+}
+.dialog-form-add-data .c__inputs .v-row__datepicker {
+  position: relative;
+  top: -80px;
+}
+
+@media only screen and (min-width: 600px) {
+  .example {
+    background: green;
+  }
+}
